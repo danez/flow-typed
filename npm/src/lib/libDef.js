@@ -5,9 +5,9 @@ import request from "request";
 
 import {gitHubClient} from "./github.js";
 import {fs, path} from "./node.js";
-import {versionToString} from "./semver.js";
+import {versionToString} from "./version.js";
 
-import type {Version} from "./semver.js";
+import type {Version} from "./version.js";
 
 const P = Promise;
 
